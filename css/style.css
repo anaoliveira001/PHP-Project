@@ -1,0 +1,71 @@
+
+#account_btn_cancel, #account_btn_save, #account_btn_delete{
+  display: none;
+}
+
+.navbar-
+
+.card-title{
+  display: inline-block;
+ 
+  position: relative;  
+}
+
+.card-img{
+  display: block;
+ 
+}
+
+.card-title{
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+.content{
+  color: darkmagenta;
+}
+
+.content h6{
+  color:black;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+.content h1{
+  font-size: 40px;
+  color:lightskyblue;
+
+}
+.content a{
+  display: inline-block;
+  width: 250px;
+  height: 60px;
+  border: 1px solid black;
+  line-height: 58px;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: .5px;
+  margin-top: 60px;
+}
+
+.content-image img{
+ width: 720px;
+ height: 600px;
+
+}
+
+.content-text{
+  padding-top: 120px;
+  padding-left: 60px;
+}
+
+
+body{
+  background-color:whitesmoke;
+}
+
+.container{
+  background-color: antiquewhite;
+  width: 3000px;
+}

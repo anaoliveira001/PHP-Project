@@ -5,21 +5,6 @@
 
 .navbar-
 
-.card-title{
-  display: inline-block;
- 
-  position: relative;  
-}
-
-.card-img{
-  display: block;
- 
-}
-
-.card-title{
-  text-align: center;
-  margin-top: 100px;
-}
 
 
 .content{
@@ -62,10 +47,5 @@
 
 
 body{
-  background-color:whitesmoke;
-}
-
-.container{
-  background-color: antiquewhite;
-  width: 3000px;
+  background-color: palevioletred;
 }

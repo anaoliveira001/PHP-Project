@@ -8,7 +8,7 @@ Home
 
 
   <div class="col-md-6 content-image">
-<img src="img/home/home_img.jpg">
+<img src="img/home/home_img.jpg" style="width:550px; height:550px;">
 </div>
 
 
@@ -18,8 +18,8 @@ Home
   <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
 
 
-  <a class="btn red" href="index.php?p=login">Login</a>
-  <a class="btn blue" href="index.php?p=register">Create an account</a>
+  <a class="btn btn-light login" href="index.php?p=login">Login</a>
+  <a class="btn btn-light register" href="index.php?p=register">Create an account</a>
 
 </div> <!---- end div content text--->
 

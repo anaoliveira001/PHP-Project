@@ -18,7 +18,25 @@ function account_cancel(){
     window.location.replace("index.php?p=account")
 }
 
+/* function create_post(el){
+    
+        var display = document.getElementById(el).style.display;
+        if(display == "none")
+            document.getElementById(el).style.display = 'block';
+        else
+            document.getElementById(el).style.display = 'none';
+    }
+ */
 
-/* function add_post(){
-    document.getElementById()
-} */
+    function create_post(ele) {
+        var srcElement = document.getElementById(ele);
+        if (srcElement != null) {
+            if (srcElement.style.display == "block") {
+                srcElement.style.display = 'none';
+            }
+            else {
+                srcElement.style.display = 'block';
+            }
+            return false;
+        }
+    }

@@ -1,11 +1,12 @@
 
+
 #account_btn_cancel, #account_btn_save, #account_btn_delete{
   display: none;
 }
 
-.navbar-
-
-
+#div_inserPost{
+  display: none;
+}
 
 .content{
   color: darkmagenta;
@@ -34,11 +35,7 @@
   margin-top: 60px;
 }
 
-.content-image img{
- width: 720px;
- height: 600px;
 
-}
 
 .content-text{
   padding-top: 120px;
@@ -47,5 +44,8 @@
 
 
 body{
-  background-color: palevioletred;
+  background-color: white;
+  font-family: 'Quicksand', sans-serif, monospace;
+  
 }
+

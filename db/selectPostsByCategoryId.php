@@ -1,9 +1,11 @@
 <?php
-define('_DEFVAR', 1);
+
 include('conn.php');
 
 
-$sql = "SELECT *, username FROM posts JOIN `user` ON posts.user_id=user.id";
+$sql = "SELECT *, username, categories.name FROM posts JOIN `user` ON posts.user_id=user.id
+JOIN categories ON posts.id=categories.id";
+
 
 
 $result = $conn->query($sql);
@@ -20,6 +22,8 @@ if ($result->num_rows > 0) {
             creat at <?= $row['datetime']?>
             BY 
             <?= $row['username']?>
+
+            categroy: <?= $row['name']?>
             
           
          
@@ -31,12 +35,6 @@ if ($result->num_rows > 0) {
   ?></div><?php
 
 }
-
-
-
-
-
-
 
 
 

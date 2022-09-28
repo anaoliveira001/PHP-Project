@@ -7,7 +7,9 @@ if(empty($_GET['post'])){
 
 $title = $_GET['title'];
 $text = $_GET['post'];
-$user = $_GET['id'];
+$category = $_GET['category'];
+$user_id = $_SESSION['id'];
+
 
 
 
@@ -15,12 +17,13 @@ define('_DEFVAR', 1);
 
 include('conn.php');
 
-$sql = "INSERT INTO posts (title, description, `datetime`, 'user_id') VALUES ('$title', '$text', Now(), '$user')";
+$sql = "INSERT INTO posts (title, description, `datetime`, category_id, `user_id`) VALUES ('$title', '$text', Now(), $category, $user_id)";
+die($sql);
 
 if ($conn->query($sql) === TRUE) {
     header('Location:../index.php?p=blog&r=insertOk');
 } else {
-    header('Location: ../index.php?p=blogr=insertError');
+    header('Location: ../index.php?r=insertError');
 }
 
 $conn->close();

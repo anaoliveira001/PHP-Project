@@ -2,5 +2,5 @@
     <h1>DWA_PROJECT LOADING</h1>
     <?php include('nav.php')?>
 </header>   
-<main class="container">
+<main>
     

@@ -1,6 +1,6 @@
 
         <div class="col-sm p-3 min-vh-100">
-            <h1>MY ACCOUNT</h1>
+            <h1 class="account">MY ACCOUNT</h1>
             <button id="create_post_btn" type="button" class="btn btn-light" onclick="create_post('div_insertPost')">
             <i class="bi bi-plus-square-fill"></i> Create Post</button>
                 

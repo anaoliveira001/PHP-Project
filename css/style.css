@@ -1,51 +1,74 @@
 
+/*general settings*/
+body{
+  background-color: bisque;
+  font-family: 'Quicksand', sans-serif, monospace; 
+}
+/*end general settings*/
 
+/* ----------------------------------------------------- */
+
+/*Navbar*/
+.navbar{
+  color: rgb(0, 0, 0);
+  align-items: center;
+}
+/* end navbar */
+
+/* ----------------------------------------------------- */
+
+/*Account settings*/
 #account_btn_cancel, #account_btn_save, #account_btn_delete{
   display: none;
 }
 
-#div_inserPost{
-  display: none;
+.account{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: blueviolet;
+  margin: 20px;
+  text-align: center;
 }
+
+/*end account settings*/
 
 .content{
   color: darkmagenta;
 }
 
+/* ----------------------------------------------------- */
+
+/*Login Page*/
 .content h6{
   color:black;
   text-transform: uppercase;
   letter-spacing: .5px;
 }
-
 .content h1{
   font-size: 40px;
-  color:lightskyblue;
-
+  color:rgb(0, 0, 0);
 }
-.content a{
-  display: inline-block;
-  width: 250px;
-  height: 60px;
-  border: 1px solid black;
-  line-height: 58px;
-  text-align: center;
-  font-weight: 500;
-  letter-spacing: .5px;
-  margin-top: 60px;
+.lorem{
+  color:black;
+  font-size: 1.8rem;;
 }
-
-
-
 .content-text{
   padding-top: 120px;
   padding-left: 60px;
 }
+/*End Login page*/
 
+/* ----------------------------------------------------- */
 
-body{
-  background-color: white;
-  font-family: 'Quicksand', sans-serif, monospace;
-  
+/*Posts*/
+#div_inserPost{
+  display: none;
+  background-color: blanchedalmond;
 }
+.recent-posts{
+  margin-left: 20px;
+}
+/*End posts*/
+
+/* ----------------------------------------------------- */
+
 
